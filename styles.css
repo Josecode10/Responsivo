@@ -10,10 +10,14 @@ body {
 
 }
 
+h2 {
+    padding: 10px 0px;
+}
+
 .titulo {
     height: 50px;
     width: 200px;
-    border: solid black 1px;
+    border: solid none 1px;
     line-height: 50px;
     margin: 30px auto;
     border-radius: 10px;
@@ -21,44 +25,38 @@ body {
 }
 
 .caja {
-    height: 200px;
-    width: 200px;
-    border: solid black 1px;
-    display: block;
+    height: 170px;
+    width: 170px;
     border-radius: 10px;
     margin: 20px auto;
     background-color: beige;
 }
 
-.imagen {
-    width: 40%;
-    height: 40%;
-}
 
 @media (min-width: 430px) {
     
-    h2 {
-        margin: 20px 0px;
-        width: 100px;
-        height: 50px;
-        border: 1px black solid;
-        line-height: 50px;
-    }
     .caja {
-        height: 200px;
-        width: 400px;
-        border: solid black 1px;
-        display: inline-block;
+        height: 110px;
+        width: 300px;
         border-radius: 10px;
         margin: 20px auto;
         background-color: beige;
     }
-
-
-    .imagen {
-        width: 40%;
-        height: 40%;
+    
+    .subtitulo {
+        height: 100px;
+        width: 120px;
         display: inline-block;
+        vertical-align: top;
+        line-height: 100px;
     }
+
+    .image {
+        height: 100px;
+        width: 120px;
+        display: inline-block;
+        margin-top: 5px;
+    }
+    
 
 }
