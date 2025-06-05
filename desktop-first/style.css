@@ -14,7 +14,9 @@ body {
     background-color: #b6baa6;
     width: 90%;
     margin: 0px auto;
+    list-style-type: square;
 }
+
 
 .caja {
     background-color: #000;
