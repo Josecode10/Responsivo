@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Estilos base para móviles (fondo azul) */
+* {
+    background-color: #007bff;
+}
+
+/* Cambia a verde para pantallas más grandes */
+@media (min-width: 768px) {
+    body {
+        background-color: #28a745;
+    }
+}
+
+/* Cambia a naranja en laptops */
+@media (min-width: 992px) {
+    body {
+        background-color: #fd7e14;
+    }
+}
+
+/* Cambia a rojo en pantallas grandes */
+@media (min-width: 1200px) {
+    body {
+        background-color: #dc3545;
+    }
+}
