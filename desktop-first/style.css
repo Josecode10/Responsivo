@@ -14,7 +14,6 @@ body {
     background-color: #b6baa6;
     width: 90%;
     margin: 0px auto;
-    list-style-type: square;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -61,24 +60,28 @@ body {
 @media (max-width: 390px) {
     body {
         background-color: #b6baa6;
-        width: auto;
+        width: 90%;
         margin: 0px auto;
-        list-style-type: square;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: relative;
+    }
+    
+    .datos ul {
+        list-style-type: circle;
     }
 
     .menu {
-        background-color: #000;
+        background-color: none;
         height: 50px;
-        width: 600px;
+        width: auto;
         line-height: 50px;
         text-align: center;
         margin: 0px auto;
         margin-bottom: 10px;
     }
-
+    
     .menu a {
-        padding: 0px 30px 0px 30px;
+        padding: 0px 5px 0px 5px;
         color: var(--color);
     }
 
@@ -86,19 +89,27 @@ body {
         background-color: #000;
         padding: 10px 20px 20px 20px;
         color: #fff;
-        width: 300px;
+        width: 310px;
         height: 500px;
         margin: 0 auto;
         margin-bottom: 10px;
-        position: relative;
+    }
+    
+    .subtitulo {
+        padding-bottom: 10px;
+        width: 270px;
+        height: 40px;
+        display: block;
+        margin: 0 auto;
 
     }
-
     .image {
         width: 210px;
         height: 210px;
         display: block;
+        margin: 0px auto;
     }
+
 
     .datos {
         padding-left: 20px;
@@ -106,5 +117,6 @@ body {
         display: block;
         font-size: 13px;
     }
+    
 
 }
